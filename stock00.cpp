@@ -39,12 +39,12 @@ void Stock::sell(long num, double price)
     if (num < 0)
     {
         cout << "Numbers of shares sold can't be negative. "
-             << "Transaction is aborted.\n"
+             << "Transaction is aborted.\n";
     }
     else if (num > shares)
     {
         cout << "You can't sell more than you have! "
-             << "Transaction is aborted.\n"
+             << "Transaction is aborted.\n";
     }
     else
     {
